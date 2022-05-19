@@ -22,7 +22,7 @@ ___
     <img height="30" src="https://jehyunlee.github.io/2020/09/09/Python-DS-31-seaborn_upgrade/31-seaborn_upgrade_1.png">
     <a href="https://git-scm.com/" target="_blank"> <img src="https://assets.website-files.com/5dc3b47ddc6c0c2a1af74ad0/5e181830b827fae3a2541766_RGB_Logo_Vertical_Color_Dark_Bg.png" height="50"> </a>
     <img height="50" src="https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_docker-512.png">
-    <a href="https://git-scm.com/" target="_blank"> <img src="https://maxcdn.icons8.com/Color/PNG/512/Logos/google_cloud_platform-512.png" height="50"> </a>
+    <a href="https://git-scm.com/" target="_blank"> <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/v1491420676/cenlvst0fgs8ejx12n8u.png" height="50"> </a>
     
 
 
@@ -38,31 +38,36 @@ ___
     * Scikit-learn
     * Joblib
     * Docker 
-    * Google cloud
+    * Heroku
 
 ## **✔️ Deployment 🚀**
 ___
-This app was containerized with the docker contrainer and  deployed on the [Google Cloud Platform (GCP)](https://console.cloud.google.com/getting-started)
+This app was containerized with the docker contrainer and the app image was pushed to docker hub and deployed on the [Heroku Cloud](https://dashboard.heroku.com/apps)
 
 **Link to Mushroom Classifier web app : [Mushroom Classification app](https://mushroomclassification-333921.nn.r.appspot.com)**
+
+**Link to Mushroom Classifier docker image : [Mushroom Classification app image](https://hub.docker.com/repository/docker/bestnyah/mushroom-classification)**
+
 
 ## **✔️ Project Organization 📌**
 ___
     MUSHROOM CLASSIFICATION
     .
     ├── app.py
-    ├── app.yaml
     ├── dataset
-    │   └── mushroomsTrain.csv
+    │   └── mushroomsTrain.csv
     ├── Dockerfile
+    ├── LICENSE
     ├── ModelBuild.ipynb
     ├── mushroom.gif
+    ├── Procfile
     ├── README.md
     ├── requirements.txt
+    ├── setup.sh
     ├── static
-    │   ├── Edible.png
-    │   ├── Group 1.png
-    │   └── poisonous.png
+    │   ├── Edible.png
+    │   ├── Group 1.png
+    │   └── poisonous.png
     └── trainedMushroomClassifier.sav
 
 
